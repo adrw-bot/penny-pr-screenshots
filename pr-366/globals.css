@@ -437,6 +437,27 @@ code.otp { font-size: 20px; letter-spacing: 3px; }
 .paper .section-head .aside { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 .paper .section-head a.aside { text-decoration: none; }
 .paper .section-head a.aside:hover { color: var(--ink); }
+.paper .ops-page-actions {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex: none;
+  margin-left: 4px;
+}
+.paper .ops-page-actions .create,
+.paper .ops-page-actions .btn-line {
+  margin: 0;
+  white-space: nowrap;
+}
+@media (max-width: 900px) {
+  .paper .section-head { flex-wrap: wrap; }
+  .paper .ops-page-actions {
+    width: 100%;
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+}
 
 /* Ruled tally strip — the pipeline as a columnar ledger pad. */
 .paper .tally {
