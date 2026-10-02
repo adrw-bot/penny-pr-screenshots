@@ -1,0 +1,20 @@
+{
+  "before": {
+    "chips": true,
+    "you": true,
+    "text": "Penny Engagement You Farah Khoury PARTNER",
+    "href": "http://127.0.0.1:37713/before.html"
+  },
+  "after": {
+    "chips": false,
+    "you": false,
+    "text": "Penny Engagement Farah Khoury PARTNER",
+    "href": "http://127.0.0.1:37713/after.html"
+  },
+  "withOther": {
+    "chips": true,
+    "you": true,
+    "text": "Penny Engagement You Devon Farah Khoury PARTNER",
+    "href": "http://127.0.0.1:37713/after-with-other.html"
+  }
+}
