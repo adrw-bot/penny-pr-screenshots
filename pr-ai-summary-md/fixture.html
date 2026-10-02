@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Penny — PR #426 visual comparison</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Production-styled fixture: tokens and component rules are copied from
+   getpenny/penny/src/app/globals.css at PR #426 (not a live production capture). */
+:root { --paper:#FAF7F2; --sheet:#FFFDF9; --ink:#26231F; --muted:#786F64; --rule:#E4DED3; --rule-soft:#EFEAE0; --seal:#B5651D; --seal-deep:#8E4E15; --seal-wash:#F1E7DA; --flag:#B24127; --sans:'IBM Plex Sans',system-ui,sans-serif; --serif:'Fraunces',Georgia,serif; --mono:'IBM Plex Mono',ui-monospace,monospace; }
+* { box-sizing:border-box; }
+html,body { margin:0; min-height:100%; }
+body { background:var(--paper); color:var(--ink); font-family:var(--sans); font-size:16px; line-height:1.5; -webkit-font-smoothing:antialiased; }
+body:not([data-fonts-ready="true"]) { visibility:hidden; }
+.paper .bar { display:flex; align-items:center; gap:14px; padding:16px 44px; border-bottom:1px solid var(--rule); background:var(--sheet); }
+.paper .bar .word { font-family:var(--serif); font-weight:600; font-size:22px; letter-spacing:-.01em; }
+.paper .bar .sep { width:1px; height:18px; background:var(--rule); }
+.paper .bar .firm { font-size:13.5px; color:var(--muted); }
+.paper .bar .sp { flex:1; }
+.paper .bar .who { font-size:13px; color:var(--muted); }
+.paper .bar .who b { color:var(--ink); font-weight:500; }
+.paper .wrap { max-width:1050px; margin:0 auto; padding:42px 36px 72px; }
+.paper .detail-head { margin:4px 0 30px; }
+.paper .dh-stamps { margin:0 0 10px; display:flex; gap:6px; align-items:center; }
+.paper .badge { display:inline-block; font-family:var(--mono); font-size:10px; font-weight:500; letter-spacing:.06em; text-transform:uppercase; padding:3px 8px; border-radius:3px; line-height:1.5; }
+.paper .badge.warn { background:var(--seal-wash); color:var(--seal-deep); }
+.paper .detail-head .dh-name { font-family:var(--serif); font-weight:500; font-size:36px; letter-spacing:-.015em; line-height:1.04; margin:0; }
+.paper .detail-head .dh-meta { font-family:var(--mono); font-size:12px; color:var(--muted); margin-top:11px; letter-spacing:.02em; }
+.paper .card { background:var(--sheet); border:1px solid var(--rule); border-radius:3px; box-shadow:0 1px 0 rgba(34,30,25,.03),0 14px 34px -30px rgba(34,30,25,.26); padding:24px 26px; margin-bottom:22px; }
+.paper .card-head { display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin:0 0 15px; }
+.paper .card-head h2 { font-family:var(--serif); font-weight:500; font-size:21px; letter-spacing:-.01em; margin:0; flex:1; }
+.paper .card-toggle { margin-left:auto; border:1px solid var(--rule); background:var(--sheet); color:var(--muted); border-radius:3px; width:28px; height:28px; font-size:14px; }
+.paper .review-summary { margin:4px 0 16px; padding:12px 14px; border:1px solid var(--rule); border-radius:8px; background:var(--paper); }
+.paper .review-summary-head { display:flex; align-items:flex-start; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+.paper .review-summary h3 { margin:0; font-size:15px; }
+.paper .review-summary-listen { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+.paper button.ghost { background:var(--sheet); border:1px solid var(--rule); border-radius:3px; color:var(--muted); font-family:var(--sans); font-size:13px; padding:7px 12px; }
+.paper .review-summary-speeds { display:flex; gap:4px; flex-wrap:wrap; }
+.paper .review-summary-speeds button.ghost { padding:4px 8px; font-size:12.5px; }
+.paper .review-summary-speeds button.review-summary-speed-on { border-color:var(--seal); background:var(--seal-wash); color:var(--seal); }
+.paper .hint { color:var(--muted); font-size:12.5px; }
+.paper .review-summary-body { margin-top:10px; font-size:14.5px; line-height:1.55; }
+.paper .review-summary-body p { margin:0 0 .75em; }
+.paper .review-summary-body p:last-child { margin-bottom:0; }
+.paper .review-summary-body h2 { font-family:var(--serif); font-weight:600; font-size:1.12em; margin:.9em 0 .35em; line-height:1.25; }
+.paper .review-summary-body h2:first-child { margin-top:0; }
+.paper .review-summary-body ul { margin:.35em 0 .75em; padding-left:1.25em; }
+.paper .review-summary-body li { margin:.2em 0; }
+.paper .review-summary-body hr { border:0; border-top:1px solid var(--rule); margin:.85em 0; }
+.paper .raw { font-family:var(--sans); white-space:normal; color:var(--ink); }
+.paper .raw p { margin:0; }
+.paper .fixture-note { margin:14px 0 0; font-family:var(--mono); font-size:10px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); text-align:right; }
+</style>
+</head>
+<body class="paper">
+<header class="bar"><span class="word">Penny</span><span class="sep"></span><span class="firm">FK LLP · Working Paper</span><span class="sp"></span><span class="who">Signed in as <b>Farah Khan</b> · Partner</span></header>
+<main class="wrap">
+  <section class="detail-head">
+    <div class="dh-stamps"><span class="badge warn">In review</span><span class="badge">2025 T1</span></div>
+    <h1 class="dh-name">Kelsey Moreau</h1>
+    <div class="dh-meta">T1 personal return · review workspace · engagement 2025-041</div>
+  </section>
+
+  <section class="card">
+    <div class="card-head"><h2>Review</h2><span class="badge warn">complexity 42%</span><button class="card-toggle" aria-label="Collapse">⌃</button></div>
+    <div class="review-summary">
+      <div class="review-summary-head"><div><h3>AI summary</h3><p class="hint" style="margin:2px 0 0">About a one-minute read. Figures not on this file show as unavailable.</p></div><div class="review-summary-listen"><button class="ghost">Refresh</button><button class="ghost">Listen</button><div class="review-summary-speeds"><button class="ghost review-summary-speed-on">1×</button><button class="ghost">1.25×</button><button class="ghost">1.5×</button></div></div></div>
+      <div class="review-summary-body raw"><p>## Client overview Kelsey Moreau — 2025 T1 is in review. Complexity is 42%. --- ## Material findings - **warning**: large YoY variance on T4 box 14 - error: missing T2125 vehicle log --- ## Spot-check Refund on file is **$1,840.50**. Confirm unavailable figures on the file.</p></div>
+    </div>
+    <div class="fixture-note">Before · legacy raw markdown rendering</div>
+  </section>
+
+  <section class="card">
+    <div class="card-head"><h2>Review</h2><span class="badge warn">complexity 42%</span><button class="card-toggle" aria-label="Collapse">⌃</button></div>
+    <div class="review-summary">
+      <div class="review-summary-head"><div><h3>AI summary</h3><p class="hint" style="margin:2px 0 0">About a one-minute read. Figures not on this file show as unavailable.</p></div><div class="review-summary-listen"><button class="ghost">Refresh</button><button class="ghost">Listen</button><div class="review-summary-speeds"><button class="ghost review-summary-speed-on">1×</button><button class="ghost">1.25×</button><button class="ghost">1.5×</button></div></div></div>
+      <div class="review-summary-body"><h2>Client overview</h2><p>Kelsey Moreau — 2025 T1 is in review. Complexity is 42%.</p><hr><h2>Material findings</h2><ul><li><strong>warning:</strong> large YoY variance on T4 box 14</li><li>error: missing T2125 vehicle log</li></ul><hr><h2>Spot-check</h2><p>Refund on file is <strong>$1,840.50</strong>. Confirm unavailable figures on the file.</p></div>
+    </div>
+    <div class="fixture-note">After · rendered markdown with headings, rules, and lists</div>
+  </section>
+</main>
+<script>
+  // The capture is taken only after the same browser font readiness contract
+  // requested for Penny UI screenshots.
+  document.fonts.ready.then(() => {
+    document.body.dataset.fontsReady = "true";
+    window.__fontsReady = true;
+  });
+</script>
+</body>
+</html>
