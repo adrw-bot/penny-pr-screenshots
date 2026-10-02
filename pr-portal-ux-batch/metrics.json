@@ -1,0 +1,73 @@
+{
+  "before": {
+    "cards": [
+      "Your details",
+      "A few questions (2 left)",
+      "Upload your tax documents"
+    ],
+    "buttons": [
+      "Yes",
+      "No",
+      "Custom"
+    ],
+    "showing": true,
+    "nav": false,
+    "shortAltVisibility": null,
+    "longNoAlt": []
+  },
+  "afterOrder": {
+    "cards": [
+      "Upload your tax documents",
+      "A few questions (2 left)",
+      "Client details"
+    ],
+    "buttons": [
+      "Yes",
+      "No",
+      "Unsure",
+      "Custom"
+    ],
+    "showing": false,
+    "nav": true,
+    "shortAltVisibility": null,
+    "longNoAlt": []
+  },
+  "afterChips": {
+    "cards": [
+      "Questions"
+    ],
+    "buttons": [
+      "Yes",
+      "No",
+      "Unsure",
+      "Custom",
+      "Yes",
+      "No",
+      "Unsure",
+      "Custom",
+      "Yes",
+      "No",
+      "Unsure",
+      "Custom"
+    ],
+    "showing": false,
+    "nav": false,
+    "shortYesLeft": 663.375,
+    "longSelectedLeft": 719.90625,
+    "shortAltVisibility": "hidden",
+    "longNoAlt": [
+      {
+        "visibility": "hidden",
+        "width": 46.53125
+      },
+      {
+        "visibility": "hidden",
+        "width": 67.765625
+      },
+      {
+        "visibility": "hidden",
+        "width": 70.84375
+      }
+    ]
+  }
+}
