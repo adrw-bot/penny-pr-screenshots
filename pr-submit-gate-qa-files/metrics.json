@@ -1,0 +1,22 @@
+{
+  "beforeUnanswered": {
+    "disabled": false,
+    "title": "Submit to my accountant",
+    "text": "Paradi & Co Submit to my accountant Kelsey Moreau · Tax Year 2025"
+  },
+  "afterUnanswered": {
+    "disabled": true,
+    "title": "2 question(s) left to answer",
+    "text": "Paradi & Co Submit to my accountant Kelsey Moreau · Tax Year 2025"
+  },
+  "afterProcessing": {
+    "disabled": true,
+    "title": "Processing… ~2 minutes remaining",
+    "text": "Paradi & Co Processing… ~2 minutes remaining Submit to my accountant Kelsey Moreau · Tax Year 2025"
+  },
+  "afterReady": {
+    "disabled": false,
+    "title": null,
+    "text": "Paradi & Co Submit to my accountant Kelsey Moreau · Tax Year 2025"
+  }
+}
