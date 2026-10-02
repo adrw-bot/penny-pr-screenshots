@@ -1,0 +1,19 @@
+{
+  "pr": 419,
+  "tip": "73b6db00d46e2835a9ad14c45cc967d88539c50e",
+  "shots": [
+    {
+      "file": "before_portal_interstitial.png",
+      "label": "Before — create lands on portal link interstitial (master setCreated + PortalLinkCard)",
+      "fonts": ["Fraunces", "IBM Plex Sans", "IBM Plex Mono"],
+      "brand": "Penny CPA"
+    },
+    {
+      "file": "after_engagement_letter_step.png",
+      "label": "After — create lands on /engagements/:id with Email engagement letter",
+      "fonts": ["Fraunces", "IBM Plex Sans", "IBM Plex Mono"],
+      "brand": "Penny"
+    }
+  ],
+  "method": "production globals.css HTML stubs + playwright document.fonts.ready"
+}
