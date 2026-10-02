@@ -1,0 +1,26 @@
+{
+  "m1": {
+    "gap": 10,
+    "idleAlts": [
+      "none",
+      "none",
+      "none"
+    ],
+    "revealAlts": [
+      "flex",
+      "flex",
+      "flex"
+    ],
+    "href": "http://127.0.0.1:8766/after-gap-and-reveal.html"
+  },
+  "m2": {
+    "gap": 10,
+    "idleAlts": [],
+    "revealAlts": [
+      "flex",
+      "flex",
+      "flex"
+    ],
+    "href": "http://127.0.0.1:8766/after-partner-reveal.html"
+  }
+}
