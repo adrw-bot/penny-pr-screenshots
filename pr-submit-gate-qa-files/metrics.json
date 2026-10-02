@@ -6,13 +6,18 @@
   },
   "afterUnanswered": {
     "disabled": true,
-    "title": "2 question(s) left to answer",
-    "text": "Penny CPA Submit to my accountant Kelsey Moreau · Tax Year 2025"
+    "title": "2 questions left to answer",
+    "text": "Penny CPA 2 questions left to answer Submit to my accountant Kelsey Moreau · Tax Year 2025"
   },
   "afterProcessing": {
     "disabled": true,
     "title": "Processing… ~2 minutes remaining",
     "text": "Penny CPA Processing… ~2 minutes remaining Submit to my accountant Kelsey Moreau · Tax Year 2025"
+  },
+  "afterUploading": {
+    "disabled": true,
+    "title": "Uploading…",
+    "text": "Penny CPA Uploading… Submit to my accountant Kelsey Moreau · Tax Year 2025"
   },
   "afterReady": {
     "disabled": false,
