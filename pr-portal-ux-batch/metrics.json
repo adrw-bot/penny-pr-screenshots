@@ -12,8 +12,11 @@
     ],
     "showing": true,
     "nav": false,
-    "shortAltVisibility": null,
-    "longNoAlt": []
+    "unansweredChipCount": 0,
+    "shortSelectedRight": null,
+    "longSelectedRight": null,
+    "shortAltDisplay": null,
+    "longAlts": []
   },
   "afterOrder": {
     "cards": [
@@ -29,8 +32,11 @@
     ],
     "showing": false,
     "nav": true,
-    "shortAltVisibility": null,
-    "longNoAlt": []
+    "unansweredChipCount": 0,
+    "shortSelectedRight": null,
+    "longSelectedRight": null,
+    "shortAltDisplay": null,
+    "longAlts": []
   },
   "afterChips": {
     "cards": [
@@ -48,25 +54,30 @@
       "Yes",
       "No",
       "Unsure",
+      "Custom",
+      "Yes",
+      "No",
+      "Unsure",
       "Custom"
     ],
     "showing": false,
     "nav": false,
-    "shortYesLeft": 663.375,
-    "longSelectedLeft": 719.90625,
-    "shortAltVisibility": "hidden",
-    "longNoAlt": [
+    "unansweredChipCount": 4,
+    "shortSelectedRight": true,
+    "longSelectedRight": true,
+    "shortAltDisplay": "none",
+    "longAlts": [
       {
-        "visibility": "hidden",
-        "width": 46.53125
+        "display": "none",
+        "width": 0
       },
       {
-        "visibility": "hidden",
-        "width": 67.765625
+        "display": "none",
+        "width": 0
       },
       {
-        "visibility": "hidden",
-        "width": 70.84375
+        "display": "none",
+        "width": 0
       }
     ]
   }
