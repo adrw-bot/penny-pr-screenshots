@@ -8,7 +8,7 @@
       ],
       "steps": [
         {
-          "label": "Engagement letter",
+          "label": "Send Engagement Letter",
           "className": "pipeline-step active",
           "hasRedo": false
         },
@@ -40,7 +40,7 @@
       "plHint": false,
       "brand": "firm",
       "hasPennyCpa": true,
-      "bytes": 25156
+      "bytes": 26999
     },
     "letterSentRedo": {
       "pngName": "02_summary_letter_sent_redo.png",
@@ -49,8 +49,8 @@
       ],
       "steps": [
         {
-          "label": "Engagement letter",
-          "className": "pipeline-step active has-reprocess",
+          "label": "✓Engagement letter",
+          "className": "pipeline-step complete has-reprocess",
           "hasRedo": true
         },
         {
@@ -81,7 +81,7 @@
       "plHint": false,
       "brand": "firm",
       "hasPennyCpa": true,
-      "bytes": 28209
+      "bytes": 28758
     },
     "racPfield": {
       "pngName": "03_rac_pfield_engagement_setup.png",
@@ -96,7 +96,7 @@
       "plHint": false,
       "brand": "firm",
       "hasPennyCpa": true,
-      "bytes": 55010
+      "bytes": 49547
     },
     "portalOrder": {
       "pngName": "04_portal_upload_checklist_qa_details.png",
@@ -134,7 +134,7 @@
       "plHint": true,
       "brand": "Penny CPA",
       "hasPennyCpa": true,
-      "bytes": 130981
+      "bytes": 132821
     }
   }
 }
