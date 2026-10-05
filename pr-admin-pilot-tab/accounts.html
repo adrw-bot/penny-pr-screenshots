@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Penny CPA Admin — Pilot</title>
+<link rel="stylesheet" href="./globals.css" />
+<style>
+  /* Fixture shell: keep admin layout stable outside the Next app shell */
+  html, body { margin: 0; background: #e8e0d4; }
+  .ops-frame { min-height: 100vh; }
+  .ops-shell { display: grid; grid-template-columns: 220px 1fr; min-height: calc(100vh - 56px); }
+  .ops-menu { display: block; }
+  .ops-menu-btn, .ops-menu-backdrop { display: none !important; }
+  .ops-main { padding: 28px 32px; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<div class="paper env-pilot">
+  <div class="ops-frame">
+    <div class="bar">
+      <a class="word" href="#">Penny</a>
+      <span class="env-pill" style="margin-left:8px">Pilot ▾</span>
+      <span class="sp"></span>
+      <span class="firm">ops@yourlastbusyseason.com</span>
+    </div>
+    <div class="ops-shell">
+      <div class="ops-menu">
+        <aside class="ops-sidebar">
+          <nav class="ops-side-nav" aria-label="Tools">
+            <a href="#"><span class="ops-side-label">Engagement queue</span></a>
+            <a class="is-on" href="#" aria-current="page"><span class="ops-side-label">Pilot</span></a>
+            <a href="#"><span class="ops-side-label">Reset between demos</span></a>
+            <a href="#"><span class="ops-side-label">Counts</span></a>
+            <a href="#"><span class="ops-side-label">Waitlist</span></a>
+            <a href="#"><span class="ops-side-label">Alerts</span></a>
+            <a href="#"><span class="ops-side-label">Analytics</span><span class="ops-side-later">later</span></a>
+            <a href="#"><span class="ops-side-label">Logs</span><span class="ops-side-later">later</span></a>
+            <a href="#"><span class="ops-side-label">Operational tools</span></a>
+          </nav>
+        </aside>
+      </div>
+      <div class="ops-main">
+        <section class="section">
+          <div class="section-head">
+            <span class="n">Pilot</span>
+            <span class="line"></span>
+            <span class="aside">3 accounts</span>
+          </div>
+          <p class="lead">Invite a firm to try Penny, then open their engagements and documents. Invite email includes a temporary password for <code>pilot.getpenny.ca</code>.</p>
+          <form class="ops-filters" style="margin-top:8px;align-items:stretch">
+            <label>Firm<input class="pfield" value="" placeholder="Northline Advisors" /></label>
+            <label>Contact name<input class="pfield" value="" placeholder="Amina Yusuf" /></label>
+            <label>Email<input class="pfield" type="email" value="" placeholder="you@firm.ca" /></label>
+            <button class="btn-line" type="button">Invite a Firm</button>
+          </form>
+          <form class="ops-filters" style="margin-top:28px">
+            <label>Find<input class="pfield" value="" placeholder="firm, person, or email" /></label>
+            <button class="btn-line" type="button">Filter</button>
+          </form>
+          <div class="register pilot-register">
+            <table>
+              <thead>
+                <tr><th>Firm</th><th>Person</th><th>Email</th><th>Engagements</th><th>Docs</th><th>Invited</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="#">Cedar Park LLP</a></td>
+                  <td class="client"><a href="#">Sam Cedar</a></td>
+                  <td>sam@cedarpark.test</td>
+                  <td class="yr">2</td>
+                  <td class="yr">5</td>
+                  <td class="note-line">Oct 5, 2026, 10:12 a.m.</td>
+                </tr>
+                <tr>
+                  <td><a href="#">Northline Advisors</a></td>
+                  <td class="client"><a href="#">Amina Yusuf</a></td>
+                  <td>amina@northline.test</td>
+                  <td class="yr">1</td>
+                  <td class="yr">1</td>
+                  <td class="note-line">Self-serve</td>
+                </tr>
+                <tr>
+                  <td><a href="#">Harbour Tax</a></td>
+                  <td class="client"><a href="#">Devon Marsh</a></td>
+                  <td>devon@harbour.test</td>
+                  <td class="yr">1</td>
+                  <td class="yr">1</td>
+                  <td class="note-line">Self-serve</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
