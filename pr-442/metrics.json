@@ -1,0 +1,140 @@
+{
+  "tip": "3f5ec1926c96bbfe044b2bd7a363c34f4b86f522",
+  "shots": {
+    "letterActive": {
+      "pngName": "01_summary_letter_active_not_sent.png",
+      "h2s": [
+        "Summary"
+      ],
+      "steps": [
+        {
+          "label": "Engagement letter",
+          "className": "pipeline-step active",
+          "hasRedo": false
+        },
+        {
+          "label": "Client Intake Portal",
+          "className": "pipeline-step pending",
+          "hasRedo": false
+        },
+        {
+          "label": "Sync to CCH iFirm Taxprep",
+          "className": "pipeline-step pending",
+          "hasRedo": false
+        },
+        {
+          "label": "Sign-off + T183",
+          "className": "pipeline-step pending",
+          "hasRedo": false
+        },
+        {
+          "label": "Close File",
+          "className": "pipeline-step pending",
+          "hasRedo": false
+        }
+      ],
+      "cards": [
+        "Summary"
+      ],
+      "selectClass": null,
+      "plHint": false,
+      "brand": "firm",
+      "hasPennyCpa": true,
+      "bytes": 25156
+    },
+    "letterSentRedo": {
+      "pngName": "02_summary_letter_sent_redo.png",
+      "h2s": [
+        "Summary"
+      ],
+      "steps": [
+        {
+          "label": "Engagement letter",
+          "className": "pipeline-step active has-reprocess",
+          "hasRedo": true
+        },
+        {
+          "label": "Client Intake Portal",
+          "className": "pipeline-step pending has-reprocess",
+          "hasRedo": true
+        },
+        {
+          "label": "Sync to CCH iFirm Taxprep",
+          "className": "pipeline-step pending",
+          "hasRedo": false
+        },
+        {
+          "label": "Sign-off + T183",
+          "className": "pipeline-step pending",
+          "hasRedo": false
+        },
+        {
+          "label": "Close File",
+          "className": "pipeline-step pending",
+          "hasRedo": false
+        }
+      ],
+      "cards": [
+        "Summary"
+      ],
+      "selectClass": null,
+      "plHint": false,
+      "brand": "firm",
+      "hasPennyCpa": true,
+      "bytes": 28209
+    },
+    "racPfield": {
+      "pngName": "03_rac_pfield_engagement_setup.png",
+      "h2s": [
+        "Engagement setup"
+      ],
+      "steps": [],
+      "cards": [
+        "Engagement setup"
+      ],
+      "selectClass": "pfield",
+      "plHint": false,
+      "brand": "firm",
+      "hasPennyCpa": true,
+      "bytes": 55010
+    },
+    "portalOrder": {
+      "pngName": "04_portal_upload_checklist_qa_details.png",
+      "h2s": [
+        "Upload your tax documents",
+        "Your document checklist",
+        "A few questions (2 left)",
+        "Client details"
+      ],
+      "steps": [],
+      "cards": [
+        "Upload your tax documents",
+        "Your document checklist",
+        "A few questions (2 left)",
+        "Client details"
+      ],
+      "selectClass": null,
+      "plHint": false,
+      "brand": "Penny CPA",
+      "hasPennyCpa": true,
+      "bytes": 180900
+    },
+    "plHint": {
+      "pngName": "05_checklist_pl_hint_above.png",
+      "h2s": [
+        "Upload your tax documents",
+        "Your document checklist"
+      ],
+      "steps": [],
+      "cards": [
+        "Upload your tax documents",
+        "Your document checklist"
+      ],
+      "selectClass": null,
+      "plHint": true,
+      "brand": "Penny CPA",
+      "hasPennyCpa": true,
+      "bytes": 130981
+    }
+  }
+}
