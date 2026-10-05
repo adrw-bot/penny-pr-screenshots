@@ -46,23 +46,21 @@
         <section class="section">
           <div class="pilot-docs-toolbar">
             <div class="pilot-docs-toolbar-start">
-              <form class="ops-inline" style="margin:0">
-                <label>
-                  Status
-                  <select class="pfield" aria-label="Engagement status">
+              <form class="engagement-status-form" style="margin:0">
+                <label class="status-select">
+                  <select aria-label="Engagement status">
                     <option selected>Uploaded</option>
                     <option>Processing</option>
                     <option>Draft ready</option>
                   </select>
                 </label>
-                <button class="btn-line" type="button">Save</button>
               </form>
             </div>
-            <div class="ops-page-actions">
+            <div class="ops-page-actions btn-group">
               <a class="btn-line" href="#">Download all</a>
-              <form class="ops-inline draft-t1-upload" style="margin:0">
+              <form class="draft-t1-upload" style="margin:0" title="Click or drop a Draft T1 file">
                 <input class="visually-hidden" type="file" aria-label="Upload Draft T1" />
-                <button class="btn-line" type="button" title="Attach a Draft T1 file">Upload Draft T1</button>
+                <button class="btn-line" type="button" title="Click or drop a Draft T1 file">Upload Draft T1</button>
               </form>
             </div>
           </div>
