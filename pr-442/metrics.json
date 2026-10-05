@@ -6,6 +6,11 @@
       "h2s": [
         "Summary"
       ],
+      "docH1": [],
+      "docH2": [],
+      "docStrong": [],
+      "rawHash": false,
+      "rawStars": false,
       "steps": [
         {
           "label": "Send Engagement Letter",
@@ -39,7 +44,7 @@
       "selectClass": null,
       "plHint": false,
       "brand": "firm",
-      "hasPennyCpa": true,
+      "hasPennyCpa": false,
       "bytes": 26999
     },
     "letterSentRedo": {
@@ -47,6 +52,11 @@
       "h2s": [
         "Summary"
       ],
+      "docH1": [],
+      "docH2": [],
+      "docStrong": [],
+      "rawHash": false,
+      "rawStars": false,
       "steps": [
         {
           "label": "✓Engagement letter",
@@ -80,7 +90,7 @@
       "selectClass": null,
       "plHint": false,
       "brand": "firm",
-      "hasPennyCpa": true,
+      "hasPennyCpa": false,
       "bytes": 28758
     },
     "racPfield": {
@@ -88,6 +98,11 @@
       "h2s": [
         "Engagement setup"
       ],
+      "docH1": [],
+      "docH2": [],
+      "docStrong": [],
+      "rawHash": false,
+      "rawStars": false,
       "steps": [],
       "cards": [
         "Engagement setup"
@@ -95,7 +110,7 @@
       "selectClass": "pfield",
       "plHint": false,
       "brand": "firm",
-      "hasPennyCpa": true,
+      "hasPennyCpa": false,
       "bytes": 49547
     },
     "portalOrder": {
@@ -106,6 +121,11 @@
         "A few questions (2 left)",
         "Client details"
       ],
+      "docH1": [],
+      "docH2": [],
+      "docStrong": [],
+      "rawHash": false,
+      "rawStars": false,
       "steps": [],
       "cards": [
         "Upload your tax documents",
@@ -125,6 +145,11 @@
         "Upload your tax documents",
         "Your document checklist"
       ],
+      "docH1": [],
+      "docH2": [],
+      "docStrong": [],
+      "rawHash": false,
+      "rawStars": false,
       "steps": [],
       "cards": [
         "Upload your tax documents",
@@ -135,6 +160,137 @@
       "brand": "Penny CPA",
       "hasPennyCpa": true,
       "bytes": 132821
+    },
+    "letterClient": {
+      "pngName": "06_letter_client_rendered_html.png",
+      "h2s": [
+        "Your engagement letter",
+        "Re: Engagement for the preparation of your 2025 personal income tax return",
+        "Scope of services",
+        "Your responsibilities",
+        "CRA authorization",
+        "Confidentiality and use of service providers",
+        "Fees",
+        "Limitation of liability",
+        "Termination",
+        "Electronic signature"
+      ],
+      "docH1": [
+        "Penny CPA"
+      ],
+      "docH2": [
+        "Re: Engagement for the preparation of your 2025 personal income tax return",
+        "Scope of services",
+        "Your responsibilities",
+        "CRA authorization",
+        "Confidentiality and use of service providers",
+        "Fees",
+        "Limitation of liability",
+        "Termination",
+        "Electronic signature"
+      ],
+      "docStrong": [
+        "Alex Rivera, CPA"
+      ],
+      "rawHash": false,
+      "rawStars": false,
+      "steps": [],
+      "cards": [
+        "Your engagement letter",
+        "Re: Engagement for the preparation of your 2025 personal income tax return",
+        "Scope of services",
+        "Your responsibilities",
+        "CRA authorization",
+        "Confidentiality and use of service providers",
+        "Fees",
+        "Limitation of liability",
+        "Termination",
+        "Electronic signature"
+      ],
+      "selectClass": null,
+      "plHint": false,
+      "brand": "Penny CPA",
+      "hasPennyCpa": true,
+      "bytes": 249469
+    },
+    "letterFirm": {
+      "pngName": "07_letter_firm_view_as_sent_rendered.png",
+      "h2s": [
+        "Engagement setup",
+        "Re: Engagement for the preparation of your 2025 personal income tax return",
+        "Scope of services",
+        "Your responsibilities",
+        "CRA authorization",
+        "Confidentiality and use of service providers",
+        "Fees",
+        "Limitation of liability",
+        "Termination",
+        "Electronic signature"
+      ],
+      "docH1": [
+        "Penny CPA"
+      ],
+      "docH2": [
+        "Re: Engagement for the preparation of your 2025 personal income tax return",
+        "Scope of services",
+        "Your responsibilities",
+        "CRA authorization",
+        "Confidentiality and use of service providers",
+        "Fees",
+        "Limitation of liability",
+        "Termination",
+        "Electronic signature"
+      ],
+      "docStrong": [
+        "Alex Rivera, CPA"
+      ],
+      "rawHash": false,
+      "rawStars": false,
+      "steps": [],
+      "cards": [
+        "Engagement setup",
+        "Re: Engagement for the preparation of your 2025 personal income tax return",
+        "Scope of services",
+        "Your responsibilities",
+        "CRA authorization",
+        "Confidentiality and use of service providers",
+        "Fees",
+        "Limitation of liability",
+        "Termination",
+        "Electronic signature"
+      ],
+      "selectClass": "pfield",
+      "plHint": false,
+      "brand": "firm",
+      "hasPennyCpa": true,
+      "bytes": 174891
+    },
+    "t183Fallback": {
+      "pngName": "08_t183_text_fallback_rendered.png",
+      "h2s": [
+        "Sign Form T183 — authorize electronic filing"
+      ],
+      "docH1": [
+        "Form T183 — Information Return for Electronic Filing of an Individual's Income Tax and Benefit Return (2025)"
+      ],
+      "docH2": [],
+      "docStrong": [
+        "Part A — Identification",
+        "Part B — Declaration of amounts from the return",
+        "Part C — Declaration and authorization",
+        "Penny CPA"
+      ],
+      "rawHash": false,
+      "rawStars": false,
+      "steps": [],
+      "cards": [
+        "Sign Form T183 — authorize electronic filing"
+      ],
+      "selectClass": null,
+      "plHint": false,
+      "brand": "Penny CPA",
+      "hasPennyCpa": true,
+      "bytes": 190132
     }
   }
 }
