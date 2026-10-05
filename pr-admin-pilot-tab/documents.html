@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8" />
 <title>Penny CPA Admin — Pilot documents</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;450;500;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="./globals.css" />
 <style>
   html, body { margin: 0; background: #e8e0d4; }
@@ -12,7 +15,6 @@
   .ops-menu-btn, .ops-menu-backdrop { display: none !important; }
   .ops-main { padding: 28px 32px; }
   a { color: inherit; }
-  .ops-inline { display: inline-flex; gap: 10px; align-items: flex-end; flex-wrap: wrap; }
 </style>
 </head>
 <body>
@@ -42,29 +44,32 @@
       </div>
       <div class="ops-main">
         <section class="section">
-          <div class="section-head" style="flex-wrap:wrap;gap:12px">
+          <div class="pilot-docs-toolbar">
+            <div class="pilot-docs-toolbar-start">
+              <form class="ops-inline" style="margin:0">
+                <label>
+                  Status
+                  <select class="pfield" aria-label="Engagement status">
+                    <option selected>Uploaded</option>
+                    <option>Processing</option>
+                    <option>Draft ready</option>
+                  </select>
+                </label>
+                <button class="btn-line" type="button">Save</button>
+              </form>
+            </div>
+            <div class="ops-page-actions">
+              <a class="btn-line" href="#">Download all</a>
+              <form class="ops-inline draft-t1-upload" style="margin:0">
+                <input class="visually-hidden" type="file" aria-label="Upload Draft T1" />
+                <button class="btn-line" type="button" title="Attach a Draft T1 file">Upload Draft T1</button>
+              </form>
+            </div>
+          </div>
+          <div class="section-head">
             <span class="n">Documents</span>
             <span class="line"></span>
             <span class="aside">Taylor Ng · 2025</span>
-            <span class="sp"></span>
-            <a class="btn-line" href="#">Download all</a>
-            <form class="ops-inline" style="margin:0">
-              <input class="pfield" type="file" aria-label="Upload Draft T1" />
-              <button class="btn-line" type="button">Upload Draft T1</button>
-            </form>
-          </div>
-          <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-bottom:12px">
-            <form class="ops-inline" style="margin:0">
-              <label style="display:flex;flex-direction:column;gap:6px">
-                <span style="font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)">Status</span>
-                <select class="pfield" aria-label="Engagement status">
-                  <option selected>Uploaded</option>
-                  <option>Processing</option>
-                  <option>Draft ready</option>
-                </select>
-              </label>
-              <button class="btn-line" type="button">Save</button>
-            </form>
           </div>
           <p class="lead"><a href="#">← Engagements</a> · Cedar Park LLP</p>
           <div class="register pilot-register">
